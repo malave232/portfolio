@@ -1,0 +1,57 @@
+body {
+	font-family: 'arial', sans-serif;
+	background-color: #f3f3f3;
+}
+
+#wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 32px;
+}
+
+header {
+	background-color: yellow;
+	height: 150px;
+	padding: 4px;
+}
+
+header h1 { 
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    line-height: 50px;
+}
+
+header h2 {
+	font-variant: small-caps;
+	text-align: center;
+	color: black
+}
+
+.main_menu {
+	padding: 5px 0 5px 0;
+	text-align: center;
+	line-height: 32px;
+	background-color: black;
+}
+
+ul.main_menu {
+	margin-top: 15px;
+}
+
+.main_menu li {
+	display: inline;
+	padding: 0 10px 0 10px;
+	font-size: 16px;
+}
+
+.main_menu li a {
+	text-decoration: none;
+	color: #fff;
+	padding: 8px;
+	font-variant: small-caps;
+}
+.main_menu li a:hover {
+	color: yellow;
+}
